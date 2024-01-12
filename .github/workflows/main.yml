@@ -2,7 +2,7 @@ name: Shaishav Podcast Feed
 on: [push]
 jobs:
   build:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
